@@ -25,10 +25,8 @@ begin
 declare
 	@currCode varchar(4096)
 
-	select @currCode = 'FORMAT @params WITH @msg'
+	select @currCode = 'TODO: FORMAT @params WITH @msg'
 
 	return @currCode
 end
-go
-execute si_intcpAfterFuncCreate 'si_strFormatMsg'
 go

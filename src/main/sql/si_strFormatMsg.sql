@@ -23,10 +23,10 @@ returns varchar(4096)
 as
 begin
 declare
-	@currCode varchar(4096)
+	@ret varchar(4096)
 
-	select @currCode = 'TODO: FORMAT @params WITH @msg'
+	select @ret = 'TODO: FORMAT @params WITH @msg'
 
-	return @currCode
+	return @ret
 end
 go
